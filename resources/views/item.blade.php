@@ -8,22 +8,23 @@
     <style>
 body {
     font-family: 'Arial', sans-serif;
-    background: #ffc0cb;
+    background: #f5f5f5;
     margin: 0;
     padding: 20px;
 }
 
 table {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     border-collapse: collapse;
     background: white;
     border: 2px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 tr:first-child {
-    background: #e74c3c;
+    background: #3498db;
     color: white;
 }
 
@@ -40,9 +41,9 @@ td {
     border: 1px solid #000000;
     text-align: center;
 }
-</style>
+    </style>
 </head>
-<body>
+    <body>
     <table>
         <tr>
             <td>Id</td>
